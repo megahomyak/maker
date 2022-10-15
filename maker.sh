@@ -1,5 +1,5 @@
 export ROOT=$(pwd)
-for d in $(find . -type d)
+for d in $(find . -type d -not -path '*/.*')
 do
     if [ -f "${d}/Makefile" ]; then
         make -f "Makefile" -s -C "${d}"
