@@ -1,3 +1,5 @@
+#!/bin/sh
+
 export ROOT=$(pwd)
 for d in $(find . -type d -not -path '*/.*')
 do

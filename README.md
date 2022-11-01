@@ -8,4 +8,4 @@ I wanted something like [little\_server](https://github.com/megahomyak/little_se
 
 # How?
 
-The only file you need is `maker.sh`. Invoke it in a directory where you need to start the recursive making.
+Either copy `maker.sh` into your project or run the `install.sh` script (don't forget `sudo`!) and then invoke `maker` anywhere.
